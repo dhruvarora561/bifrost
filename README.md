@@ -23,13 +23,9 @@ For the cards on the page find the following tag(s) and change the values
 <h4 class="card-title">NAME_OF_THE_SERVICE</h4><a href="http://URL_OF_THE_SERVICE">NAME_OF_THE_SERVICE</a>
 ```
 
-After making the required changes save the file and point your web server(apache, nginx, caddy, etc) to the index.html file.
-
-Make sure to change all the links to the desired values.
-
 In order to add more entries to the dashboard just copy and paste the following 
 
-For the nav bar paste the following snippet between the ```<nav></nav>``` tag
+For the nav bar paste the following snippet between the ```<nav>``` tag
 
 ```
 <li class="nav-item"><a class="nav-link" href="http://change_me" style="color: rgba(224,217,217,0.9);">Change_me</a></li>
@@ -76,6 +72,9 @@ For the cards just copy and paste following in the ```body``` tag
     </div>
 ```
 
+After making the required changes save the file and point your web server(apache, nginx, caddy, etc) to the index.html file.
+
+Make sure to change all the links to the desired values.
 
 
 
